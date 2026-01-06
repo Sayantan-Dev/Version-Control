@@ -161,30 +161,6 @@ Discard local file changes ❌
 
 git reset <file>
 
-
-Unstage a file 🔄
-
-git reset --hard <commit-hash>
-
-
-Reset project to a commit (destructive) 💥
-
-🚦 File States in Git
-State	Meaning
-🆕 Untracked	New file not tracked
-✏️ Modified	Changed but not staged
-📦 Staged	Ready for commit
-✅ Committed	Saved to history
-📂 .gitignore
-
-Used to tell Git what NOT to track 🚫
-
-Examples:
-
-node_modules/
-
-.env
-
 *.log
 
 ## 🔄 Git Workflow (The 3 Areas)
